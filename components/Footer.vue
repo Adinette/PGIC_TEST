@@ -54,15 +54,15 @@
 			<div class="flex flex-col ">
 				<h2 class="font-bold text-xl ml-4">Publications</h2>
 				<div class="flex flex-col my-4 text-sm dark:text-gray-400">
-					<a rel="noopener noreferrer" class="flex items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+					<a rel="noopener noreferrer" class="flex items-center" href="/actualités"><svg xmlns="http://www.w3.org/2000/svg"
 							width="45" height="45" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 							<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
 						</svg>Actualités</a>
-					<a rel="noopener noreferrer" class="flex items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+					<a rel="noopener noreferrer" class="flex items-center" href="/documenthèque"><svg xmlns="http://www.w3.org/2000/svg"
 							width="45" height="45" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 							<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
 						</svg>Documents</a>
-					<a rel="noopener noreferrer" class="flex items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+					<a rel="noopener noreferrer" class="flex items-center" href="/projets"><svg xmlns="http://www.w3.org/2000/svg"
 							width="45" height="45" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 							<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
 						</svg>Projets</a>
@@ -87,7 +87,7 @@
 							width="45" height="45" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 							<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
 						</svg>Investir à Zogbodomey</a>
-					<a rel="noopener noreferrer" class="flex items-center" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+					<a rel="noopener noreferrer" class="flex items-center" href="/vivre"><svg xmlns="http://www.w3.org/2000/svg"
 							width="45" height="45" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
 							<path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" />
 						</svg>Vivre à Zogbodomey</a>

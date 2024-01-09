@@ -28,21 +28,21 @@
 							<a class="block px-4 py-2  hover:text-green-700 active:text-green-700" href="/maire">La Mairie</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Le Conseil de Supervision</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/supervision">Le Conseil de Supervision</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Le Conseil Communal</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/comunal">Le Conseil Communal</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Secrétariat Exécutif</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/secretariatExec">Secrétariat Exécutif</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Agenda et évenements</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/agenda">Agenda et évenements</a>
 						</li>
 					</ul>
 				</li>
 				<li class="flex">
-					<a rel="noopener noreferrer" href="#"
+					<a rel="noopener noreferrer" href="/services"
 						class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent">Services</a>
 				</li>
 				<li class="flex has-dropdown">
@@ -57,27 +57,27 @@
 									d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
 							</svg></button>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">La commune</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/commune">La commune</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Vivre à Zogbodomey</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/vivre">Vivre à Zogbodomey</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Les partenaires</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#/partenaires">Les partenaires</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Les OSC/ONG</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/OSC_ONG">Les OSC/ONG</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Les SDE</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/SDE">Les SDE</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Produits du terroir</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/produits">Produits du terroir</a>
 						</li>
 					</ul>
 				</li>
 				<li class="flex">
-					<a rel="noopener noreferrer" href="#"
+					<a rel="noopener noreferrer" href="/projets"
 						class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent">Projets</a>
 				</li>
 				<li class="flex has-dropdown">
@@ -92,10 +92,10 @@
 									d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
 							</svg></button>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Actualités</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/actualités">Actualités</a>
 						</li>
 						<li>
-							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Documenthèque</a>
+							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="/documenthèque">Documenthèque</a>
 						</li>
 						<li>
 							<a class="block px-4 py-2 hover:text-green-700 active:text-green-700" href="#">Marchés Publics</a>
@@ -106,7 +106,7 @@
 					</ul>
 				</li>
 				<li class="flex">
-					<a rel="noopener noreferrer" href="#"
+					<a rel="noopener noreferrer" href="/contact"
 						class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent">Nous joindre</a>
 				</li>
 			</ul>
