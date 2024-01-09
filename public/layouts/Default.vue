@@ -1,9 +1,0 @@
-<template>
-    <div>
-        <Header/>
-        <div>
-            <Slot/>
-        </div>
-        <Footer/>
-    </div>
-</template>

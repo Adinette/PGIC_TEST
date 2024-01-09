@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-banner{
+    background-image: url(../images/home/bg.png);
+    background-size: cover;
+}
+.banner-block{
+    margin-top: -7rem;
+    height: 250px;
+    padding-right: 13rem;
+    
+}
+.banner-image{   
+    height: 250px;
+    margin-top: -7rem;
+    
+}
+.banner{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.about-content{
+    max-width:38rem;
+}
+.btn-banner{
+    position: relative;
+    left: 32rem;
+}
+.more-banner{
+    background-image: url(../images/home/more.png);
+    background-size: cover;
+}
+
+/* join */
+.join-block{
+    margin-right: 3.3rem;
+}
+
+/* banner */
+.banner-side{
+    background-image: url(../images/maire/maireBanner.png);
+    background-position: center center; 
+    background-blend-mode: multiply; 
+    background-size: cover;
+}
+.content-img{
+    background-position: center center; 
+    background-blend-mode: multiply; 
+    background-size: cover;
+}
+.attribution-block{
+    height: 610px;
+}
