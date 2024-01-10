@@ -1,7 +1,4 @@
 <script setup>
-//Soit tu declare et importe maire_page depuis un autre fichier comme ceci
-//import maire_page from '../../data/maire_page.json'
-//soit tu le declare dans la page directement et tu l'utilise comme suit 
 const maire_page = {
   title: "Le Maire de la commune de Zogbodomey",
   picture: "/images/maire/maire1.png",

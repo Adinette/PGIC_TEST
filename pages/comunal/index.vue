@@ -1,7 +1,7 @@
 
 
 <template>
-    <Banner title="Membres du conseil de supervision" />
+    <Banner title="Membres du Conseil Communal" />
     <Conseil name="David Zinsou TOWEDJE" title1="Maire de la commune de Zogbodomey"
         title2="Président du Conseil de Supervision" button1="Biographie" button2="Ecrire au maire" />
     <section class="py-6 dark:bg-white  dark:text-black">

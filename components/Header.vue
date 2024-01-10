@@ -118,21 +118,21 @@
             <li>
               <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                to="#/partenaires"
+                to="/partenaires"
                 >Les partenaires</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                to="/OSC_ONG"
+                to="/oscOng"
                 >Les OSC/ONG</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                to="/SDE"
+                to="/sde"
                 >Les SDE</NuxtLink
               >
             </li>

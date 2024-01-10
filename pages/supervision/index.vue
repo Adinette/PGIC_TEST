@@ -55,7 +55,7 @@ export default {
           link: "Voir la fiche",
         },
         {
-          imageSrc: "/assets/images/maire/team1.png",
+          imageSrc:"/assets/images/maire/team1.png",
           author: "DAGAÏCHA Fidèle",
           role: "Conseiller",
           link: "Voir la fiche",
