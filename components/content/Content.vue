@@ -48,10 +48,6 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  // link: {
-  //   type: String,
-  //   required: true,
-  // }
 });
 
 onMounted(() => {

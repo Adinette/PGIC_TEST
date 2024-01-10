@@ -3,7 +3,7 @@
     <div class=" dark:text-black">
         <div class=" p-6 grid grid-cols-12 mx-auto ">
             <div class="content-img  mt-16 col-span-12 lg:col-span-5 ">
-                <img src="~/assets/images/maire/maire2.png" alt="" class=" object-contain content-img ">
+                <img :src="picture" alt="" class=" object-contain content-img ">
             </div>
             <div class="flex flex-col col-span-12 pl-3 pt-6 pb-4 lg:col-span-6 mt-28 ml-2 h-96 bg-teal-50">
                 <h5 class="text-2xl ml-7 font-bold leadi text-black">{{ name }}
@@ -32,30 +32,33 @@
 </template>
 
 
-<script>
-export default {
-    props: {
-        title1: {
-            type: String,
-            required: true,
-        },
-        title2: {
-            type: String,
-            required: true,
-        },
-        name: {
-            type: String,
-            required: true,
-        },
-        button1: {
-            type: String,
-            required: true,
-        },
-        button2: {
-            type: String,
-            required: true,
-        },
+<script setup>
+const props = defineProps({
+    picture: {
+        type: String,
+        required: true,
     },
-};
+    title1: {
+        type: String,
+        required: true,
+    },
+    title2: {
+        type: String,
+        required: true,
+    },
+    name: {
+        type: String,
+        required: true,
+    },
+    button1: {
+        type: String,
+        required: true,
+    },
+    button2: {
+        type: String,
+        required: true,
+    },
+
+});
 
 </script>

@@ -5,6 +5,7 @@ const maire_page = {
   name: "David Zinsou TOWEDJE",
   role: "Maire de la commune de Zogbodomey",
   title_content: "Mots du maire",
+  title_biographie: "Biographie du maire",
   description: `Chères populations de la commune de Zogbodomey, C'est avec une grande fierté que je m'adresse à vous en tant que maire de notre magnifique commune. Au nom de l'ensemble du conseil communal, je tiens à vous souhaiter la bienvenue sur le site officiel de la Mairie de Zogbodomey.
 En tant que Maire, ma priorité est de faire de Zogbodomey un endroit où il fait bon vivre, grandir, travailler et s'épanouir. Nous sommes fiers de nos traditions tout en embrassant l'avenir avec enthousiasme. C'est pourquoi nous nous efforçons constamment de renforcer notre belle commune, en investissant dans des projets d'infrastructure, en améliorant les services municipaux et en favorisant le bien-être de nos citoyens.
 Je tiens à remercier chacun d'entre vous pour votre soutien continu, votre engagement et votre sens civique. C'est grâce à la collaboration de notre communauté que nous pouvons accomplir de grandes choses.
@@ -41,8 +42,9 @@ Vive la commune de Zogbodomey!`,
     :description="maire_page.description"
   />
   <Biographie
-    :title="maire_page.title"
+    :title_biographie="maire_page.title_biographie"
     :description="maire_page.description_biographie"
   />
   <Social />
+  <Subscribe/>
 </template>

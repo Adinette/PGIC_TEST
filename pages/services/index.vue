@@ -1,6 +1,6 @@
 
 <template>
-    <Banner liste1="Services" />
+    <Banner :title="service_page.title" />
     <div class="p-8 flex justify-between w-full space-y-1 dark:text-gray-100">
         <label for="Search" class="hidden">Search</label>
         <div class="relative">
@@ -22,16 +22,21 @@
             </button>
         </div>
     </div>
-    <Service 
-        :content="service_page.content" :price="service_page.price" :description="service_page.description"
-        :liste1="service_page.liste1" :liste2="service_page.liste2" :liste3="service_page.liste3"
-        :liste4="service_page.liste4" :liste5="service_page.liste5" :liste6="service_page.liste6"
-        :link1="service_page.link1" :link2="service_page.link2" />
+    <Service v-for="service in services" :key="service.id"
+        :content="service.content" :price="service.price" :description="service.description"
+        :liste1="service.liste1" :liste2="service.liste2" :liste3="service.liste3"
+        :liste4="service.liste4" :liste5="service.liste5" :liste6="service.liste6"
+        :link1="service.link1" :link2="service.link2" />
     <Social />
 </template>
 <script setup>
 const service_page = {
-    content: "Le Maire de la commune de Zogbodomey",
+    title: "Services",
+}
+const services = [
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
     price: "350 F CFA",
     description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
     liste1: "n neque diam donec m cras consectetur bibendum",
@@ -42,5 +47,76 @@ const service_page = {
     liste6: "Lorem ipsum dolor sit amet consectetur. ",
     link1: "Lire Plus",
     link2: "Faire une demande",
-};
+    },
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
+    price: "350 F CFA",
+    description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
+    liste1: "n neque diam donec m cras consectetur bibendum",
+    liste2: "adipiscing. Metus vel tristique morbi aenean laor.",
+    liste3: "Lorem ipsum dolor sit amet consectetur. ",
+    liste4: "Lorem ipsum dolor sit amet consectetur. ",
+    liste5: "Lorem ipsum dolor sit amet consectetur. ",
+    liste6: "Lorem ipsum dolor sit amet consectetur. ",
+    link1: "Lire Plus",
+    link2: "Faire une demande",
+    },
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
+    price: "350 F CFA",
+    description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
+    liste1: "n neque diam donec m cras consectetur bibendum",
+    liste2: "adipiscing. Metus vel tristique morbi aenean laor.",
+    liste3: "Lorem ipsum dolor sit amet consectetur. ",
+    liste4: "Lorem ipsum dolor sit amet consectetur. ",
+    liste5: "Lorem ipsum dolor sit amet consectetur. ",
+    liste6: "Lorem ipsum dolor sit amet consectetur. ",
+    link1: "Lire Plus",
+    link2: "Faire une demande",
+    },
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
+    price: "350 F CFA",
+    description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
+    liste1: "n neque diam donec m cras consectetur bibendum",
+    liste2: "adipiscing. Metus vel tristique morbi aenean laor.",
+    liste3: "Lorem ipsum dolor sit amet consectetur. ",
+    liste4: "Lorem ipsum dolor sit amet consectetur. ",
+    liste5: "Lorem ipsum dolor sit amet consectetur. ",
+    liste6: "Lorem ipsum dolor sit amet consectetur. ",
+    link1: "Lire Plus",
+    link2: "Faire une demande",
+    },
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
+    price: "350 F CFA",
+    description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
+    liste1: "n neque diam donec m cras consectetur bibendum",
+    liste2: "adipiscing. Metus vel tristique morbi aenean laor.",
+    liste3: "Lorem ipsum dolor sit amet consectetur. ",
+    liste4: "Lorem ipsum dolor sit amet consectetur. ",
+    liste5: "Lorem ipsum dolor sit amet consectetur. ",
+    liste6: "Lorem ipsum dolor sit amet consectetur. ",
+    link1: "Lire Plus",
+    link2: "Faire une demande",
+    },
+    {
+        id: 1,
+        content: "Le Maire de la commune de Zogbodomey",
+    price: "350 F CFA",
+    description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. ",
+    liste1: "n neque diam donec m cras consectetur bibendum",
+    liste2: "adipiscing. Metus vel tristique morbi aenean laor.",
+    liste3: "Lorem ipsum dolor sit amet consectetur. ",
+    liste4: "Lorem ipsum dolor sit amet consectetur. ",
+    liste5: "Lorem ipsum dolor sit amet consectetur. ",
+    liste6: "Lorem ipsum dolor sit amet consectetur. ",
+    link1: "Lire Plus",
+    link2: "Faire une demande",
+    },
+];
 </script>
