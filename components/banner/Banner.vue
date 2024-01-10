@@ -2,7 +2,7 @@
     <section>
 		<div class="">
 			<div
-				class="banner-side container px-4 py-16 pb-24 mx-auto  lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+				class="banner-side  px-4 py-16 pb-24 mx-auto  lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
 				<h2 class="text-4xl font-bold leadi xl:max-w-3xl dark:text-white">{{ title }}</h2>
 				
 			</div>

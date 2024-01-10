@@ -1,6 +1,6 @@
 <template>
 	<footer class="p-6 dark:bg-black dark:text-gray-100">
-		<div class="container grid grid-cols-2 mx-auto gap-x-3 pt-6 pb-12 sm:grid-cols-3 md:grid-cols-4 border-b border-b-white">
+		<div class=" grid grid-cols-2 mx-auto gap-x-3 pt-6 pb-12 sm:grid-cols-3 md:grid-cols-4 border-b border-b-white">
 			<div class="flex flex-col ">
 				<h2 class="font-bold text-xl">Contacts</h2>
 				<div class="flex flex-col mt-5 text-base dark:text-gray-400">

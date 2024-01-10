@@ -5,7 +5,7 @@
         </h5>
         <a href="" class="text-lg text-black font-semibold">Tous les projets</a>
     </div>
-    <div class="container p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
+    <div class=" p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
 
         <div class="max-w-lg  ">
             <div class=" space-x-4">

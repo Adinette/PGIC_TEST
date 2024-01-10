@@ -1,7 +1,7 @@
 
 <template>
     <div class=" dark:text-black">
-        <div class="container p-6 grid grid-cols-12 mx-auto ">
+        <div class=" p-6 grid grid-cols-12 mx-auto ">
             <div class="flex flex-col rounded-sm lg:col-span-3">
                 <div
                     class="attribution-block px-6 pb-8  dark:bg-violet-400 dark:text-gray-900">

@@ -1,8 +1,8 @@
 <template>
     <div class="min-h-screen">
-        <div class="pb-6">
+        <div class="w-full">
             <Header />
-            <div>
+            <div class=" w-full">
                 <slot />
             </div>
             <Footer />

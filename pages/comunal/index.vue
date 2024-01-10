@@ -5,7 +5,7 @@
     <Conseil name="David Zinsou TOWEDJE" title1="Maire de la commune de Zogbodomey"
         title2="Président du Conseil de Supervision" button1="Biographie" button2="Ecrire au maire" />
     <section class="py-6 dark:bg-white  dark:text-black">
-        <div class="container flex flex-col items-center  justify-center p-4 mx-auto sm:p-10">
+        <div class=" flex flex-col items-center  justify-center p-4 mx-auto sm:p-10">
             <div class="flex flex-row flex-wrap-reverse justify-center mt-8">
                 <Team v-for="team in teams" :key="team.id" :imageSrc="team.imageSrc" :author="team.author" :role="team.role"
                     :link="team.link" />

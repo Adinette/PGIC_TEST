@@ -1,7 +1,7 @@
 <template>
     <section class="py-6 dark:bg-neutral-600 dark:text-gray-50">
         <div
-            class="container mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:justify-between lg:flex-row">
+            class=" mx-auto flex flex-col justify-center p-4 space-y-8 md:p-10 lg:justify-between lg:flex-row">
             <div class="flex">
                 <div class="flex flex-col space-y-4 text-center lg:text-left">
                     <h3 class="text-3xl text-amber-500 font-bold leadi">RESTEZ INFORMÉ</h3>

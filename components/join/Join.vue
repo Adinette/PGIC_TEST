@@ -1,5 +1,5 @@
 <template>
-    <div class="container p-6 mx-auto grid justify-center bg-slate-300 grid-cols-2 lg:grid-cols-2">
+    <div class=" p-6 mx-auto grid justify-center bg-slate-300 grid-cols-2 lg:grid-cols-2">
         <div class="">
             <img class="h-72" src="~/assets/images/home/contact1.png">
         </div>

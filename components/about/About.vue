@@ -1,6 +1,6 @@
 <template>
     <section class=" dark:text-black">
-        <div class="container flex flex-col justify-center pb-6 px-6 mt-6 mx-auto sm:pb-12 lg:pb-24 lg:flex-row lg:justify-between">
+        <div class=" flex flex-col justify-center pb-6 px-6 mt-6 mx-auto sm:pb-12 lg:pb-24 lg:flex-row lg:justify-between">
             <div class="about-content flex flex-col justify-center px-6 pb-6 text-center  lg:text-left">
                 <h5 class="text-3xl font-bold leadi text-green-700">Zogbodomey, la terre promise
                 </h5>

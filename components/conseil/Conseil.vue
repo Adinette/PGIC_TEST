@@ -1,7 +1,7 @@
 
 <template>
     <div class=" dark:text-black">
-        <div class="container p-6 grid grid-cols-12 mx-auto ">
+        <div class=" p-6 grid grid-cols-12 mx-auto ">
             <div class="content-img  mt-16 col-span-12 lg:col-span-5 ">
                 <img src="~/assets/images/maire/maire2.png" alt="" class=" object-contain content-img ">
             </div>

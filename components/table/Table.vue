@@ -1,5 +1,5 @@
 <template>
-	<div class="container my-5 p-2 mx-auto sm:p-4 dark:text-black">
+	<div class=" my-5 p-2 mx-auto sm:p-4 dark:text-black">
 		<div class="overflow-x-auto">
 			<table class="w-full p-6 text-xs text-left border dark:border-gray-700 whitespace-nowrap">
 				<colgroup>

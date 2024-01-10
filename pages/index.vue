@@ -2,7 +2,7 @@
 	<section>
 		<div class="">
 			<div
-				class="home-banner container  flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+				class="home-banner   flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
 				<h1 class="text-5xl font-bold leadi sm:text-6xl xl:max-w-3xl dark:text-white">La mairie de Zogbodomey,</h1>
 				<p class="mt-10 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-white">Une administration communale au service
 					de sa population</p>
@@ -34,7 +34,7 @@
 			</h5>
 			<a href="" class="text-lg text-black font-semibold">Tous les services</a>
 		</div>
-		<div class="container p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
+		<div class=" p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
 			<Service v-for="service in services" :key="service.id" :content="service.content" :price="service.price"
 				:description="service.description" :liste1="service.liste1" :liste2="service.liste2"
 				:liste3="service.liste3" :liste4="service.liste4" :liste5="service.liste5" :liste6="service.liste6"

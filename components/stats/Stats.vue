@@ -1,6 +1,6 @@
 <template>
 	<section class="py-4  dark:text-gray-100">
-		<div class="container mx-auto grid justify-center grid-cols-2 text-center lg:grid-cols-4">
+		<div class=" mx-auto grid justify-center grid-cols-2 text-center lg:grid-cols-4">
 			<div class=" py-6 bg-lime-600 justify-start  ">
 				<p class="text-2xl font-bold leadi ">Superficie</p>
 				<p class="text-base mt-10  sm:text-base">600 km²</p>

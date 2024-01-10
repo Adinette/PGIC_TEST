@@ -5,7 +5,7 @@
             <span>60 événements</span>
             <span class="text-green-700 ml-12">Afficher uniquement les événements à venir</span>
         </div>
-        <div class="container p-6 grid grid-cols-12 mx-auto ">
+        <div class=" p-6 grid grid-cols-12 mx-auto ">
             <div class="flex flex-col col-span-12 px-6 lg:col-span-8 pt-3 pb-2 bg-teal-50">
                 <div class="space-y-6">
                     <span class="text-xl mb-4 md:tracki ">2ème Audience publique de réddition de compte

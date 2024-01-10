@@ -1,6 +1,6 @@
 <template>
     <section>
-            <div class="container flex flex-col items-center p-6 my-8 mx-auto text-center  bg-slate-100">
+            <div class=" flex flex-col items-center p-6 my-8 mx-auto text-center  bg-slate-100">
                 <span class="text-3xl font-bold leadi   dark:text-black">Partagez cette page sur les résaux
                     sociaux</span>
                 <div class="flex  mt-5 text-base items-center font-semibold ">
