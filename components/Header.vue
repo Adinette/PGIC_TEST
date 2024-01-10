@@ -10,11 +10,10 @@
       </NuxtLink>
       <ul class="items-stretch hidden space-x-3 text-lg lg:flex">
         <li class="flex has-dropdown">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="#"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Mairie</a
+            >Mairie</NuxtLink
           >
           <ul
             class="dropdown hidden absolute bg-white border rounded-md shadow-md mt-12 ml-10 py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto max-h-60"
@@ -34,56 +33,56 @@
               </svg>
             </button>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/maire"
-                >La Mairie</a
+                to="/maire"
+                >La Mairie</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/supervision"
-                >Le Conseil de Supervision</a
+                to="/supervision"
+                >Le Conseil de Supervision</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/comunal"
-                >Le Conseil Communal</a
+                to="/comunal"
+                >Le Conseil Communal</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/secretariatExec"
-                >Secrétariat Exécutif</a
+                to="/secretariatExec"
+                >Secrétariat Exécutif</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/agenda"
-                >Agenda et évenements</a
+                to="/agenda"
+                >Agenda et évenements</NuxtLink
               >
             </li>
           </ul>
         </li>
         <li class="flex">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="/services"
+            to="/services"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Services</a
+            >Services</NuxtLink
           >
         </li>
         <li class="flex has-dropdown">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="#"
+            to="#"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Zogbodomey</a
+            >Zogbodomey</NuxtLink
           >
           <ul
             class="dropdown hidden absolute bg-white border rounded-md shadow-md mt-12 ml-10 py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto max-h-60"
@@ -103,63 +102,63 @@
               </svg>
             </button>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/commune"
-                >La commune</a
+                to="/commune"
+                >La commune</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/vivre"
-                >Vivre à Zogbodomey</a
+                to="/vivre"
+                >Vivre à Zogbodomey</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="#/partenaires"
-                >Les partenaires</a
+                to="#/partenaires"
+                >Les partenaires</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/OSC_ONG"
-                >Les OSC/ONG</a
+                to="/OSC_ONG"
+                >Les OSC/ONG</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/SDE"
-                >Les SDE</a
+                to="/SDE"
+                >Les SDE</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/produits"
-                >Produits du terroir</a
+                to="/produits"
+                >Produits du terroir</NuxtLink
               >
             </li>
           </ul>
         </li>
         <li class="flex">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="/projets"
+            to="/projets"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Projets</a
+            >Projets</NuxtLink
           >
         </li>
         <li class="flex has-dropdown">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="#"
+            to="#"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Publications</a
+            >Publications</NuxtLink
           >
           <ul
             class="dropdown hidden absolute bg-white border rounded-md shadow-md mt-12 ml-10 py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto max-h-60"
@@ -179,47 +178,47 @@
               </svg>
             </button>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/actualités"
-                >Actualités</a
+                to="/actualités"
+                >Actualités</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="/documenthèque"
-                >Documenthèque</a
+                to="/documenthèque"
+                >Documenthèque</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="#"
-                >Marchés Publics</a
+                to="#"
+                >Marchés Publics</NuxtLink
               >
             </li>
             <li>
-              <a
+              <NuxtLink
                 class="block px-4 py-2 hover:text-green-700 active:text-green-700"
-                href="#"
-                >Recrutement</a
+                to="#"
+                >Recrutement</NuxtLink
               >
             </li>
           </ul>
         </li>
         <li class="flex">
-          <a
+          <NuxtLink
             rel="noopener noreferrer"
-            href="/contact"
+            to="/contact"
             class="flex items-center px-4 -mb-1 hover:text-green-700 active:text-green-700 border-b-2 dark:border-transparent"
-            >Nous joindre</a
+            >Nous joindre</NuxtLink
           >
         </li>
       </ul>
       <div class="items-center flex-shrink-0 hidden lg:flex">
         <button
-          class="self-center px-6 py-3 font-semibold rounded-lg bg-amber-400 text-white"
+          class="self-center px-6 py-3 font-semibold rounded-lg dark:bg-amber-400 text-white"
         >
           Suivre ma demande
         </button>
