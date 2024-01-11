@@ -1,15 +1,27 @@
 <template>
-    <div
-        class="flex flex-col justify-center p-12 px-8 ml-6 mr-16 my-12 text-center rounded-md w-80  dark:bg-teal-50 dark:text-gray-800">
-        <img :src="picture" alt="" class="self-center flex-shrink-0 w-52 h-52 -mt-24 bg-center bg-cover  dark:bg-gray-500" />
-        <div class="flex-1 my-8">
-            <p class="text-xl font-semibold leadi">{{ author }}</p>
-            <p class="my-8">{{ role }}</p>
-            <a href="" class="bg-amber-500 text-white text-xl font-bold px-4 py-2">{{ link }}</a>
-        </div>
-        <!-- <img alt="" src="~/assets/images/home/drapeau.png"> -->
+  <div
+    class="flex flex-col justify-center p-12 px-0 pb-0 ml-6 mr-16 my-12 text-center rounded-md w-80 dark:bg-teal-50 dark:text-gray-800"
+  >
+    <img
+      :src="picture"
+      alt=""
+      class="self-center flex-shrink-0 w-52 h-52 -mt-24 bg-center bg-cover dark:bg-gray-500"
+    />
+    <div class="flex-1 my-8">
+      <p class="text-xl font-semibold leadi">{{ author }}</p>
+      <p class="my-8">{{ role }}</p>
+      <a href="" class="bg-amber-500 text-white text-xl font-bold px-4 py-2">{{
+        link
+      }}</a>
     </div>
+    <div class="grid grid-cols-3 h-1">
+      <span class="bg-green-500"></span>
+      <span class="bg-yellow-500"></span>
+      <span class="bg-red-500"></span>
+    </div>
+  </div>
 </template>
+
 <script setup>
 const props = defineProps({
   picture: {
@@ -18,21 +30,15 @@ const props = defineProps({
   },
   role: {
     type: String,
-    default: '',
+    default: "",
   },
   author: {
     type: String,
-    default: '',
+    default: "",
   },
   link: {
     type: String,
-    default: '',
+    default: "",
   },
 });
-
-onMounted(() => {
-    console.log(props.picture);
-});
 </script>
-
-  

@@ -1,6 +1,4 @@
 <script setup>
-import Document from 'next/document';
-
 const maire_page = {
     title:"Contactez-nous",
 };
