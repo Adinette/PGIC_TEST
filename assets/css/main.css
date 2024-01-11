@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: Montserrat;
+}
+
 .home-banner{
     background-image: url(../images/home/bg.png);
     background-size: cover;
@@ -52,4 +56,10 @@
 }
 .attribution-block{
     height: 610px;
+}
+.contact-input{
+    width: 27.5rem;
+}
+.contact-textarea{
+    height: 500px;
 }

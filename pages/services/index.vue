@@ -35,7 +35,7 @@
       </button>
     </div>
   </div>
-  <div class="grid grid-cols-4 gap-4">
+  <div class="grid grid-cols-3 px-3 gap-4">
     <ServicesService
       v-for="service in services"
       :key="service.id"

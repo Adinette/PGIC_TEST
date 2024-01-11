@@ -11,31 +11,31 @@ const produit_page = {
   {
     id: 1,
     picture: "/images/maire/produit1.png",
-    title_content: "Riz ",
+    title: "Riz ",
     description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
   },
   {
     id: 1,
     picture: "/images/maire/produit1.png",
-    title_content: "Sorgho",
+    title: "Sorgho",
     description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
   },
   {
     id: 1,
     picture: "/images/maire/produit1.png",
-    title_content: "Niébé",
+    title: "Niébé",
     description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
   }, 
   {
     id: 1,
     picture: "/images/maire/produit1.png",
-    title_content: "Haricot",
+    title: "Haricot",
     description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
   },
   {
     id: 1,
     picture: "/images/maire/produit1.png",
-    title_content: "Arachide",
+    title: "Arachide",
     description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
   }, 
 ];
@@ -43,7 +43,7 @@ const produit_page = {
 
 <template>
     <Banner :title="produit_page.title" />
-    <div class="p-8 flex justify-between w-full space-y-1 dark:text-gray-100">
+    <div class="pt-8 px-8 flex justify-between w-full space-y-1 dark:text-gray-100">
         <label for="Search" class="hidden">Search</label>
         <div class="relative">
             <span class="absolute inset-y-0 left-0 flex items-center pl-2">
@@ -65,7 +65,7 @@ const produit_page = {
         </div>
     </div>
     <div class=" p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
-        <Produits v-for="produit in produits" :key="produit.id"
+        <ProjetProduits v-for="produit in produits" :key="produit.id"
         :picture="produit.picture" 
         :title="produit.title" 
         :description="produit.description" />

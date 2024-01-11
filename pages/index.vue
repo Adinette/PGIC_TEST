@@ -21,7 +21,9 @@
 					salles de classes à Hon : le conseil communal
 					de Zogbodomey prouve...</p>
 				<button class="btn-banner px-6 mt-2 font-semibold dark:bg-amber-400 dark:text-white" style="">LIRE LA
-					SUITE</button>
+					SUITE
+					<Arrow/>
+				</button>
 			</div>
 
 		</div>
@@ -42,6 +44,11 @@
 		</div>
 	</section>
 	<Join />
+	<div class="flex p-8 justify-between">
+        <h5 class="text-3xl font-bold leadi text-green-700">Projets
+        </h5>
+        <a href="" class="text-lg text-black font-semibold">Tous les projets</a>
+    </div>
 	<Projet />
 	<More />
 	<Document />
@@ -69,8 +76,8 @@ export default {
 					liste4: "Lorem ipsum dolor sit amet consectetur. ",
 					liste5: "Lorem ipsum dolor sit amet consectetur. ",
 					liste6: "Lorem ipsum dolor sit amet consectetur. ",
-					liste11: "Lire Plus",
-					liste12: "Faire une demande",
+					link1: "Lire Plus",
+					link2: "Faire une demande",
 				},
 				{
 					content: "Dépôt de signature",
@@ -82,8 +89,8 @@ export default {
 					liste4: "Lorem ipsum dolor sit amet consectetur. ",
 					liste5: "Lorem ipsum dolor sit amet consectetur. ",
 					liste6: "Lorem ipsum dolor sit amet consectetur. ",
-					liste11: "Lire Plus",
-					liste12: "Faire une demande",
+					link1: "Lire Plus",
+					link2: "Se rendre à la mairie",
 				},
 				{
 					content: "Dépôt de signature",
@@ -95,8 +102,8 @@ export default {
 					liste4: "Lorem ipsum dolor sit amet consectetur. ",
 					liste5: "Lorem ipsum dolor sit amet consectetur. ",
 					liste6: "Lorem ipsum dolor sit amet consectetur. ",
-					liste11: "Lire Plus",
-					liste12: "Faire une demande",
+					link1: "Lire Plus",
+					link2: "Faire une demande",
 				},
 
 			],

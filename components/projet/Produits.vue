@@ -1,7 +1,7 @@
 
 <template>
    
-        <div class="max-w-lg  ">
+        <div class="max-w-lg  mt-4">
             <div class=" space-x-4">
                 <img :src="picture" alt="" class="" />
             </div>

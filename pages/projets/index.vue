@@ -1,11 +1,11 @@
 <script setup>
-const maire_page = {
+const projet_page = {
     title:"Projets",
 };
 </script>
 
 <template>
-    <Banner :title="maire_page.title" />
+    <Banner :title="projet_page.title" />
     <div class="p-8 flex justify-between w-full space-y-1 dark:text-gray-100">
         <label for="Search" class="hidden">Search</label>
         <div class="relative">
