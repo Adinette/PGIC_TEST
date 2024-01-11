@@ -21,14 +21,14 @@
                             <div class="flex items-center">
                                 <img src="https://source.unsplash.com/75x75/?portrait" alt=""
                                     class="w-4 h-4 border rounded-full dark:bg-gray-500 dark:border-gray-700">
-                                <p class="text-sm ml-3">Jeudi 15 Novembre 2023, 09H00</p>
+                                <p class="text-sm text-black ml-3">Jeudi 15 Novembre 2023, 09H00</p>
                             </div>
                             <span class="text-green-700 ml-12">Dans 20 Jours</span>
                         </div>
                         <div class="flex items-center mt-6">
                             <img src="https://source.unsplash.com/75x75/?portrait" alt=""
                                 class="w-4 h-4 border rounded-full dark:bg-gray-500 dark:border-gray-700">
-                            <p class="text-sm ml-3">Bureau d’arrondissement de CANA 1</p>
+                            <p class="text-sm text-black ml-3">Bureau d’arrondissement de CANA 1</p>
                         </div>
                     </div>
                     <div class="text-end dark:text-gray-100 mt-8">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="lg:col-span-4 text-end">
+            <div class="lg:col-span-4 px text-end">
                 <div class="w-full space-y-1 dark:text-gray-100">
                     <label for="Search" class="hidden">Search</label>
                     <div class="relative">
@@ -51,12 +51,14 @@
                             </button>
                         </span>
                         <input type="search" name="Search" placeholder="Search..."
-                            class="w-32 py-2 pl-10 text-sm rounded-md sm:w-auto focus:outline-none dark:bg-gray-800 dark:text-gray-100 focus:dark:bg-gray-900 focus:dark:border-violet-400">
+                            class="w-72 py-3 pl-3 text-sm focus:outline-none  dark:text-black bg-white border border-black">
                     </div>
                 </div>
+                <div class="text-end w dark:text-gray-100 mt-8">
+                    <a class="bg-amber-500 text-white text-xl font-bold px-7 py-2">Proposer un événement</a>
+                </div>
                 <div class="text-end dark:text-gray-100 mt-8">
-                    <a class="bg-amber-500 text-white text-xl font-bold px-4 py-2">Ajouter</a>
-                    <a class="bg-green-700 mt-6 text-white text-xl font-bold px-4 py-2">Partager</a>
+                    <a class="bg-green-700 mt-6 text-white text-xl font-bold px-16 py-2">Prendre un RDV</a>
                 </div>
             </div>
 

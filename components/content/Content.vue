@@ -15,11 +15,6 @@
             {{ description }}
           </p>
         </div>
-        <!-- <div>
-          <a href="" class="self-center px-4 py-2 font-semibold  dark:bg-amber-400 text-white">
-            {{ link }}
-          </a>
-        </div> -->
       </div>
 
     </div>

@@ -4,7 +4,6 @@
         <div class="max-w-lg  ">
             <div class=" space-x-4">
                 <img :src="picture" alt="" class="" />
-                <!-- <img src="~/assets/images/home/projet1.png"> -->
             </div>
             <div class="p-6 border-b border-x border-slate-600">
                 <h6 class="text-lg p-2 border-b  border-slate-600 text-black font-semibold mb-4">{{title}}</h6>

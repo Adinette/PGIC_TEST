@@ -1,14 +1,48 @@
 <script setup>
-const maire_page = {
-    title:"Produits du terroir",
-    title_content: "Maîs local et amélioré",
+const produit_page = {
+    title:"Produits du terroir",};
+    const produits = [
+  {
+    id: 1,
     picture: "/images/maire/produit1.png",
-    description: `Le maïs (local et amélioré) constitue la principale céréale produite dans la commune`,
-};
+    title:"Maîs local et amélioré",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  },
+  {
+    id: 1,
+    picture: "/images/maire/produit1.png",
+    title_content: "Riz ",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  },
+  {
+    id: 1,
+    picture: "/images/maire/produit1.png",
+    title_content: "Sorgho",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  },
+  {
+    id: 1,
+    picture: "/images/maire/produit1.png",
+    title_content: "Niébé",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  }, 
+  {
+    id: 1,
+    picture: "/images/maire/produit1.png",
+    title_content: "Haricot",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  },
+  {
+    id: 1,
+    picture: "/images/maire/produit1.png",
+    title_content: "Arachide",
+    description: "Le maïs (local et amélioré) constitue la principale céréale produite dans la commune"
+  }, 
+];
 </script>
 
 <template>
-    <Banner :title="maire_page.title" />
+    <Banner :title="produit_page.title" />
     <div class="p-8 flex justify-between w-full space-y-1 dark:text-gray-100">
         <label for="Search" class="hidden">Search</label>
         <div class="relative">
@@ -31,11 +65,10 @@ const maire_page = {
         </div>
     </div>
     <div class=" p-6 mx-auto grid justify-center grid-cols-2 space-x-6 lg:grid-cols-3">
-        <Produits 
-        :picture="maire_page.picture" 
-        :title="maire_page.title" 
-        :title_content="maire_page.title_content" 
-        :description="maire_page.description" />
+        <Produits v-for="produit in produits" :key="produit.id"
+        :picture="produit.picture" 
+        :title="produit.title" 
+        :description="produit.description" />
     </div>
     <Social />
 </template>
